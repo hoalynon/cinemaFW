@@ -11403,9 +11403,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\IdentityProject.csproj",
-      "projectName": "IdentityProject",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\IdentityProject.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\Cinema.csproj",
+      "projectName": "Cinema",
+      "projectPath": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\Cinema.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\obj\\",
       "projectStyle": "PackageReference",

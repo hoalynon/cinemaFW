@@ -68,7 +68,9 @@ label {
 span {
     color: #1932B1;
 }
-
+span.text-danger {
+    color: #BB2525;
+}
     span:hover {
         text-decoration: underline;
     }

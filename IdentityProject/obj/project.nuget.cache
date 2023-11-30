@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yoBMK93SxCHwYrxV9XmPy2TUrgobusSu7xNE7Qrvwdz1/tBCrsma2F/H2vFtlxL6UutfcuV6hVEbL6wpejU9jg==",
+  "dgSpecHash": "KF49aDMqgiStkEBCD0uiE+mO7d44opX4hQvjVjrsG56rNvuRRNG9nPtZXDZGgzgUtJlFmkM4gA62/3AU9fzc5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\IdentityProject.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\Cinema.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -18,11 +18,15 @@
 }
 else
 {
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
+    <div class="validation">
+            <span class="register">
+                <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Đăng ký</a>
+            </span>
+
+            <hr>
+            <span class="login">
+                <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+            </span>
+    </div>
 }
 </ul>

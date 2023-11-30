@@ -5,6 +5,86 @@
       "PackagePath": "staticwebassets\\IdentityProject.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\1.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\10.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\11.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\12.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\13.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\14.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\15.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\16.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\16.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\17.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\17.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\18.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\18.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\19.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\19.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\2.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\20.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\20.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\3.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\4.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\5.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\6.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\7.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\8.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Dashboard\\9.png",
+      "PackagePath": "staticwebassets\\Images\\Dashboard\\9.png"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Login\\1.jpg",
       "PackagePath": "staticwebassets\\Images\\Login\\1.jpg"
     },
@@ -15,6 +95,10 @@
     {
       "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\Images\\Login\\3.jpg",
       "PackagePath": "staticwebassets\\Images\\Login\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
       "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\css\\menu.css",
@@ -31,6 +115,10 @@
     {
       "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\js\\menu.js",
+      "PackagePath": "staticwebassets\\js\\menu.js"
     },
     {
       "Id": "C:\\Users\\Admin\\Downloads\\IdentityProject\\IdentityProject\\IdentityProject\\wwwroot\\js\\site.js",

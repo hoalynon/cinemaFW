@@ -22,6 +22,9 @@
                         <span class="form-header--selected  login">ĐĂNG NHẬP</span>
                         <span class="register">ĐĂNG KÝ</span>
                     </div>
+
+
+
                     <div class="register_form">
                         <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
 
@@ -42,7 +45,7 @@
 
                                 <div class="form-floating">
                             <label asp-for="Input.Email">Email:<span class="required"> *</span></label><br>
-                            <input asp-for="Input.Email" class="form-control" autocomplete="email" aria-required="true" />
+                            <input asp-for="Input.Email" class="form-control" autocomplete="Email" aria-required="true" />
                             <span asp-validation-for="Input.Email" class="text-danger"></span>
                             </div>
 
@@ -78,10 +81,9 @@
                             </div>
 
 
-                            <div class="law">
-                                <input type="radio" class="round" id="agreelaw">
-                                <label for="agreelaw">Tôi đồng ý với <span>điều khoản sử dụng của ABC</span></label>
-                            </div>
+                           
+                                <label for="agreelaw">Bấm ĐĂNG KÝ đồng nghĩa với việc bạn đồng ý với <span>điều khoản sử dụng</span> của chúng tôi.</label>
+                            
 
                             <button id="registerSubmit" type="submit" class="submit"><span>ĐĂNG KÝ</span> </button>
 

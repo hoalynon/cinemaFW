@@ -23,6 +23,7 @@ using System.Net.Mail;
 using System.Net;
 using System.Globalization;
 using Serilog;
+using IdentityProject.Models;
 
 namespace IdentityProject.Areas.Identity.Pages.Account
 {
@@ -68,7 +69,7 @@ namespace IdentityProject.Areas.Identity.Pages.Account
         {
             
             [Required(ErrorMessage = "Email không được để trống")]
-            [EmailAddress]
+            [EmailAddress(ErrorMessage = "Email không hợp lệ")]
             [StringLength(100, MinimumLength = 3, ErrorMessage = "Độ dài email không hợp lệ")]
             [Display(Name = "Email")]
             public string Email { get; set; }
@@ -78,12 +79,12 @@ namespace IdentityProject.Areas.Identity.Pages.Account
 
             [Required(ErrorMessage = "Mật khẩu không được để trống")]
             [StringLength(100,ErrorMessage = "Mật khẩu phải có độ dài ít nhất là 8 ký tự", MinimumLength = 8)]
-            [DataType(DataType.Password)]
+            [DataType(DataType.Password, ErrorMessage = "Mật khẩu phải bao gồm ít nhất 1 chữ cái viết hoa, 1 ký tự đặc biệt và số")]
             [Display(Name = "Mật khẩu")]
             public string Password { get; set; }
 
-            [Required]
-            [DataType(DataType.Password)]
+            [Required(ErrorMessage = "Xác nhận mật khẩu không được để trống")]
+            [DataType(DataType.Password,ErrorMessage = "Mật khẩu phải bao gồm ít nhất 1 chữ cái viết hoa, 1 ký tự đặc biệt và số")]
             [Display(Name = "Xác nhận mật khẩu")]
             [Compare("Password", ErrorMessage = "Xác nhận mật khẩu không khớp")]
             public string ConfirmPassword { get; set; }
@@ -93,12 +94,13 @@ namespace IdentityProject.Areas.Identity.Pages.Account
             [Display(Name = "Họ tên")]
             [Required(ErrorMessage = "Họ tên không được để trống")]
             [StringLength(100, MinimumLength = 5, ErrorMessage = "Độ dài tên không hợp lệ")]
-            [DataType(DataType.Text)]
+            [DataType(DataType.Text,ErrorMessage = "Họ tên không hợp lệ")]
             public string cus_name { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "Số điện thoại không được để trống")]
+            [RegularExpression(@"^0\d+$", ErrorMessage = "Số điện thoại phải bắt đầu từ số 0")]
             [Display(Name = "Số điện thoại")]
-            [DataType(DataType.PhoneNumber)]
+            [DataType(DataType.PhoneNumber, ErrorMessage ="Số điện thoại không hợp lệ")]
             [Phone]
             public string cus_phone { get; set; }
 
@@ -106,12 +108,11 @@ namespace IdentityProject.Areas.Identity.Pages.Account
             public string cus_gender { get; set; }
 
 
-            [Required]
+            [Required(ErrorMessage = "Ngày sinh không được để trống")]
             [DataType(DataType.Date)]
             [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
             //[DisplayFormat(DataFormatString = "{0:dd'/'MM'/'yyyy}", ApplyFormatInEditMode = true)]
-            //[Range(typeof(DateTime), "1/1/1900", "12/31/9999", ErrorMessage = "Ngày sinh không hợp lệ")]
-            //public string cus_dob { get; set; }
+            [customDayRange(ErrorMessage = "Ngày sinh không hợp lệ")]
             public DateTime cus_dob { get; set; }
         }
 
@@ -210,7 +211,7 @@ namespace IdentityProject.Areas.Identity.Pages.Account
                 MailMessage message = new MailMessage();
                 SmtpClient smtpClient = new SmtpClient();
                 message.From = new MailAddress("21522605@gm.uit.edu.vn");
-                message.To.Add("thanhtran.8676@gmail.com");
+                message.To.Add(email);
                 message.Subject = subject;
                 message.IsBodyHtml = true;
                 message.Body = confirmLink;

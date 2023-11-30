@@ -2,22 +2,88 @@
 @model LoginModel
 
 @{
-    ViewData["Title"] = "Log in";
+    // ViewData["Title"] = "Log in";
 }
 @section head {
-    <link rel="stylesheet" href="">  @* !!! *@
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=" ~ /css/login.css">  @* !!! *@
 
-
+    <title>Cinema</title>
+    <link rel="stylesheet" href="~/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 }
-<h1>@ViewData["Title"]</h1>
-<div class="row">
+
+@* <h1>@ViewData["Title"]</h1> *@
+<section class="slider">
+    <div class="container">
+        <div class="slider-content">
+            <div class="slider-content-left">
+                <!--Tạo khung đăng nhập-->
+                <div class="user-modal">
+
+                    <div class="form-header">
+                        <span class="form-header--selected  login">ĐĂNG NHẬP</span>
+                        <span class="register">ĐĂNG KÝ</span>
+                    </div>
+
+                    <section>
+                        <form id="account" method="post">
+
+                            @* <hr /> *@
+                            <div class="form-content">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <div class="form-floating">
+                                    <label asp-for="Input.Email" class="input-title">Email:<span class="red">*</span> </label>
+                                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Nhập Email " />
+                                    
+                                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                </div>
+                                <div class="form-floating">
+                                    <label asp-for="Input.Password" class="input-title">Mật khẩu: <span class="red">*</span></label>
+                                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
+                                    
+                                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                </div>
+                                <div>
+                                    <button id="login-submit" type="submit" @* class="w-100 btn btn-lg btn-primary" *@>ĐĂNG NHẬP</button>
+                                </div>
+
+                                <p>
+                                    <a id="forgot-password" asp-page="./ForgotPassword"><span class="forget-paswd">Quên mật khẩu?</span></a>
+                                </p>
+                                
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+            <!--Khung banner chương trình đang diễn ra-->
+            <div class="slider-content-right">
+                <section class="wrapper">
+                    <i class="fa-solid fa-arrow-left button" id="prev"></i>
+                    <div class="image-container">
+                        <div class="carousel">
+                            <img src="@Url.Content("~/Images/Login/1.jpg")" alt="" />
+                            <img src="@Url.Content("~/Images/Login/2.jpg")" alt="" />
+                            <img src="@Url.Content("~/Images/Login/3.jpg")" alt="" />
+                        </div>
+                        <i class="fa-solid fa-arrow-right button" id="next"></i>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+@* <div class="row">
     <div class="col-md-4">
         <section>
             <form id="account" method="post">
-                <h2>Use a local account to log in.</h2>
+                
                 <hr />
+                                    <div class="form-content">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-floating">
                     <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
@@ -51,6 +117,7 @@
                         <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
                     </p>
                 </div>
+                                    </div>
             </form>
         </section>
     </div>
@@ -84,7 +151,7 @@
             }
         </section>
     </div>
-</div>
+</div> *@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
