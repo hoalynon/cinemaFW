@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = cinema
+build_property.RootNamespace = cinema
+build_property.ProjectDir = E:\study\dai_hoc\hk5\httt_framework\do_an\cinema\cinema\cinema\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\study\dai_hoc\hk5\httt_framework\do_an\cinema\cinema\cinema
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Account/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjb3VudFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Bill/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmlsbFxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Bill/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmlsbFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Customer/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Discount/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzY291bnRcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Discount/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzY291bnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Discount/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzY291bnRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Movie/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW92aWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW92aWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Movie/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTW92aWVcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Revenue/LineChart_Month.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2ZW51ZVxMaW5lQ2hhcnRfTW9udGguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Revenue/LineChart_Year.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2ZW51ZVxMaW5lQ2hhcnRfWWVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Revenue/Month.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2ZW51ZVxNb250aC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Revenue/Year.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2ZW51ZVxZZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Room/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Room/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Room/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9vbVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Seat/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Seat/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Seat/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2VhdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Slot/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xvdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Slot/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xvdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Slot/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2xvdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Ticket/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlja2V0XERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Ticket/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVGlja2V0XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Type/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHlwZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Type/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHlwZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Admin/Type/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHlwZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/AdminAlert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluQWxlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/AdminFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/AdminHead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluSGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/AdminSlidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluU2xpZGViYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/study/dai_hoc/hk5/httt_framework/do_an/cinema/cinema/cinema/Views/Shared/AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-kzcrwynk0w
